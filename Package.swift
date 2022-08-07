@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "swift-line-algorithm",
+    name: "swift-line-algorithms",
     products: [
         .library(
             name: "LineAlgorithms",
