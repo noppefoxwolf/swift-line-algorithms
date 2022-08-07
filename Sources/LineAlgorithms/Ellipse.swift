@@ -5,7 +5,7 @@ extension SIMD2<Int> {
     ///   - from: origin
     ///   - to: end point
     /// - Returns: plot points
-    public static func prxotEllipse(from: Self, to: Self) -> [Self] {
+    public static func plotEllipse(from: Self, to: Self) -> [Self] {
         var x0 = from.x
         var y0 = from.y
         var x1 = to.x
