@@ -1,5 +1,5 @@
 
-extension SIMD2<Int> {
+extension SIMD2 where Scalar == Int {
     /// Bresenham's line algorithm
     /// - Parameters:
     ///   - from: origin
